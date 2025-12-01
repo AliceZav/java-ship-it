@@ -1,6 +1,8 @@
 package ru.yandex.practicum;
 
 import org.junit.jupiter.api.Test;
+import ru.yandex.practicum.delivery.PerishableParcel;
+
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

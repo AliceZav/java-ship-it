@@ -1,4 +1,5 @@
 package ru.yandex.practicum.delivery;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -63,11 +64,13 @@ public class DeliveryApp {
                 " 3 - Скоропортящаяся посылка");
         int type = scanner.nextInt();
         System.out.println("Введите описание посылки: ");
-        String description = scanner.next();
+        String description = scanner.nextLine();
+        scanner.nextLine();
         System.out.println("Введите вес посылки: ");
         int weight = scanner.nextInt();
         System.out.println("Введите адрес доставки: ");
-        String deliveryAddress = scanner.next();
+        String deliveryAddress = scanner.nextLine();
+        scanner.nextLine();
         System.out.println("Введите день отправки: ");
         int sendDay = scanner.nextInt();
         scanner.nextLine();
